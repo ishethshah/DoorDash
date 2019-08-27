@@ -10,7 +10,7 @@ Architecture :
 This application is developed using MVP pattern
 
 ThirdParty Library :
-Retrofit (network)
+Retrofit (network) ,
 Glide (image loading)
 
 Screen sizes and Orientation support :
