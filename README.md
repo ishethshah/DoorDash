@@ -10,7 +10,7 @@ Architecture :
 This application is developed using MVP pattern
 
 ThirdParty Library :
-Retrofit (network)
+Retrofit (network) ,
 Glide (image loading)
 
 Screen sizes and Orientation support :
@@ -20,8 +20,8 @@ Required:
 
 * Internet
 
-* Make sure your location service is on and Please accept location permission
+* Make sure your location service is on and Please accept location permission. 
 If you right away enable location service than even though permission is accepted ,
-last location will not be available some time,  in that case open google maps and than try , it will load restaurant
+last location will not be available some time,  in that case open google maps and than try , it will be able to get current location.
 
 
