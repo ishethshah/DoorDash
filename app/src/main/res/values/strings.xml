@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DoorDash</string>
+    <string name="restaurant_list_title">DoorDash</string>
+    <string name="restaurant_empty">No Restaurant option available for current location or \n no network connection.</string>
+    <string name="restaurant_delivery_free_tag">Delivery Free</string>
+    <string name="restaurant_delivery_fee">Delivery Fee: </string>
+    <string name="communication_error">Error in getting data. Please try again later.</string>
+    <string name="location_error">Not able to get current location.Please enable location access</string>
+    <string name="current_location_txt">DELIVERING TO</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="default_circle_radius">10dp</dimen>
+    <dimen name="default_icon_radius">25dp</dimen>
+    <dimen name="corner_radius">2dp</dimen>
+    <dimen name="detail_backdrop_height">300dp</dimen>
+
+    <dimen name="default_vsmall">1dp</dimen>
+    <dimen name="default_small">3dp</dimen>
+    <dimen name="default_normal">6dp</dimen>
+    <dimen name="default_medium">9dp</dimen>
+    <dimen name="default_large">12dp</dimen>
+    <dimen name="default_vlarge">15dp</dimen>
+
+    <dimen name="text_sub_small">11sp</dimen>
+
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">17sp</dimen>
+
+    <dimen name="restaurant_list_image_height">150dp</dimen>
+    <dimen name="restaurant_detail_image_height">200dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+</resources>

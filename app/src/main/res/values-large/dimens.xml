@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="default_vsmall">1dp</dimen>
+    <dimen name="default_small">6dp</dimen>
+    <dimen name="default_normal">12dp</dimen>
+    <dimen name="default_medium">18dp</dimen>
+    <dimen name="default_large">24dp</dimen>
+    <dimen name="default_vlarge">30dp</dimen>
+
+    <dimen name="restaurant_list_image_height">180dp</dimen>
+    <dimen name="restaurant_detail_image_height">200dp</dimen>
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="detail_backdrop_height">350dp</dimen>
+</resources>

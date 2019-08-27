@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="GlobalButtonStyle" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="ProgressBarStyle" parent="@android:style/Widget.Material.ProgressBar">
+        <item name="android:indeterminateTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="ProgressBarStyle.Small" parent="@android:style/Widget.Material.ProgressBar.Small">
+        <item name="android:indeterminateTint">@color/colorPrimary</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.SubTitle.Elevation" parent="TextAppearance.SubTitle">
+        <item name="android:translationZ">@dimen/default_vsmall</item>
+        <item name="android:elevation">@dimen/default_vsmall</item>
+    </style>
+
+    <style name="CardView.Elevation">
+        <item name="android:elevation">@dimen/default_vsmall</item>
+    </style>
+</resources>
