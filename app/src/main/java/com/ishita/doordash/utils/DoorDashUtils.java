@@ -32,7 +32,7 @@ public class DoorDashUtils {
                 return strReturnedAddress.toString();
             }
         } catch (Exception e) {
-            LogUtils.e(TAG,"Canont get Address!");
+            LogUtils.e(TAG, "Canont get Address!");
         }
         return null;
     }

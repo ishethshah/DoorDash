@@ -1,26 +1,24 @@
 package com.ishita.doordash;
 
 import android.content.Intent;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.test.rule.ActivityTestRule;
 
 import com.ishita.doordash.view.RestaurantDetailActivity;
 
 import junit.framework.TestCase;
-import androidx.test.rule.ActivityTestRule;
 
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-import org.w3c.dom.Text;
 
 public class RestaurantdetailActivityTest extends TestCase {
 
-    private RestaurantDetailActivity mActivity;
-
     @Rule
     public ActivityTestRule<RestaurantDetailActivity> mRule = new ActivityTestRule<>(RestaurantDetailActivity.class, false, false);
+    private RestaurantDetailActivity mActivity;
 
     @Before
     @Override
@@ -43,7 +41,7 @@ public class RestaurantdetailActivityTest extends TestCase {
 
     @Test
     public void testUIIconsPresent() {
-        ImageView detailBackropView =  mActivity.findViewById(R.id.iv_backdrop);
+        ImageView detailBackropView = mActivity.findViewById(R.id.iv_backdrop);
         assertNotNull(detailBackropView);
 
         TextView restaurantTitle = mActivity.findViewById(R.id.tv_restaurant_title);
